@@ -1,0 +1,14 @@
+/**app.wxss**/
+.container {
+  height: 100%;
+   
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 40rpx;
+  box-sizing: border-box;
+} 
+
+.form-control{
+  border:1px solid #ddd;
+}

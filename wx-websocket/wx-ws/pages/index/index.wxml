@@ -1,0 +1,4 @@
+<!--index.wxml-->
+ <view class='container'>
+ <input class="form-control" bindchange="sendMsg" type="text" /> 
+ </view>

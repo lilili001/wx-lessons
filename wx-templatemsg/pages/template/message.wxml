@@ -1,0 +1,45 @@
+<view class="container">
+<form bindsubmit="formSubmit" report-submit  >
+
+  <view class="item">
+    <label>
+        购买地点:
+        <input class='form-control' value="北京" type='text' name="address"/> 
+    </label>
+  </view>
+    <view class="item">
+    <label>
+      
+          <picker 
+          mode="date" 
+          value="{{date}}" 
+          start="2015-09-01" 
+          end="2017-09-01" 
+          bindchange="bindDateChange">
+            <view class="picker">
+               购买时间: {{date}}
+            </view>
+        </picker>
+    </label>
+  </view>
+
+    <view class="item">
+    <label>
+        购买名称:
+        <input value="咖啡机" class="form-control" type='text' name="pdc_name"/> 
+    </label>
+  </view>
+
+    <view class="item">
+    <label>
+        购买价格:
+        <input value="12" class="form-control" type='text' name="price"/> 
+    </label>
+  </view>
+
+   <view class="btn-area" style="margin-top:10px">
+    <button formType="submit">Submit</button>
+  </view>
+</form>
+
+</view>

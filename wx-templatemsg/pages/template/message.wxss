@@ -1,0 +1,5 @@
+ .container{padding:0 40rpx;display:block}
+ .form-control{
+  border:1px solid #ddd;
+  
+}

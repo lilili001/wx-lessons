@@ -1,0 +1,24 @@
+<swiper indicator-dots="{{indicatorDots}}"
+  autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}"  >
+  <block wx:for="{{imgUrls}}" wx:key="{{index}}">
+    <swiper-item>
+      <image src="{{item}}" class="slide-image"  />
+    </swiper-item>
+  </block>
+</swiper>
+
+<view class="item-list">
+  <view class="pro-item" wx:for="{{proList}}" wx:key="{{index}}"  bindtap='toDetail' data-index='{{index}}'>
+    <image class="pro-logo" src="{{item.logo}}"></image>
+    <view class="pro-body">
+      <view class="pro-title">{{item.title}}</view>
+      <text class="pro-desc">{{item.body}}</text>
+      <view class="pro-footer">
+        <image class="btn-detail" src='/images/btn_ask.png'></image>
+        <button open-type="contact" class="btn-ask"><image  src='/images/btn_detail.png'></image></button>
+      </view>
+    </view>
+  </view>
+</view>
+ 
+<button bindtap='tel' class="clearfix mar-t20 btn-contact" style='padding:10rpx'>联系我们</button>

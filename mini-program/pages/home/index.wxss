@@ -1,0 +1,48 @@
+/* pages/home/index.wxss */
+.pro-item{
+  padding:20rpx;
+  clear:both;
+}
+.pro-logo{float:left;
+width:180rpx;
+height:180rpx;
+}
+.pro-body{
+  margin-left:200rpx
+}
+.pro-title{
+  color:#212121;
+  font-size:34rpx;
+  line-height: 1
+}
+.pro-desc{
+  font-size:24rpx;
+  color:#9a9a9a;
+  line-height: 1.2
+}
+.btn-detail{
+  float:left;
+  width:170rpx;
+  height:52rpx;
+}
+.btn-ask{
+  float:left;
+  width:224rpx;
+  height:52rpx;
+}
+button{
+  padding:0;
+  line-height: 1
+}
+button image{
+  width:100%;
+  height:100%;
+}
+swiper image{
+  width:100%;
+  height:100%; 
+}
+.btn-contact{
+  clear:both;
+  margin-top:50rpx
+}
